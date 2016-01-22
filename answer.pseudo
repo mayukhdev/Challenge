@@ -1,0 +1,8 @@
+from random import randint
+def func(name):
+  """Return Name with random int between 6-15
+    parameter: name - String
+    return : String
+    """
+	num = random.randint(6,15) #Random number generator with Range
+	return name + " " + str(num)
